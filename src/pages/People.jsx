@@ -16,7 +16,7 @@ const People = () => {
   return (
     <div className="d-flex justify-content-center flex-wrap">
       {people.map(person => (
-        <div key={`film-${person.id}`} className="card people-card m-3" style={{width: "20 rem;"}}>
+        <div key={`film-${person.id}`} className="card people-card m-3" style={{width: "20 rem"}}>
           <h4 className="card-header">{person.name}</h4>
           <ul className="list-group list-group-flush">
             <p className="list-group-item m-0"><small className="text-muted">Gender: </small>{person.gender}</p>

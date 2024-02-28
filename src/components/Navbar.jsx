@@ -7,7 +7,7 @@ const Navbar = () => {
       <Link to="/" className="navbar-brand">
         <img src="https://upload.wikimedia.org/wikipedia/en/thumb/c/ca/Studio_Ghibli_logo.svg/1200px-Studio_Ghibli_logo.svg.png" alt="ghibli logo"></img>
       </Link>
-      <div class="links d-flex">
+      <div className="links d-flex">
         <NavLink
           to="/"
           className={({ isActive }) => `btn nav-link ${isActive && 'active'}`}>

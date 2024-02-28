@@ -6,7 +6,7 @@ const Home = () => {
       <div className="jumbotron jumbotron-fluid style" style={{backgroundImage: "linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url('https://preview.redd.it/n2t2137ysxq71.jpg?auto=webp&s=7a817f3f55ab63e8417e752972ea7c64e41345af')"}}>
         <section className="container">
           <h1 className="display-4">Ghibli Studio Challenge</h1>
-          <p class="lead">
+          <p className="lead">
             Studio Ghibli was founded in 1985 by animated film directors
             Isao Takahata and Hayao Miyazaki, and has produced twenty-two
             feature-length films.
